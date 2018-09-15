@@ -98,22 +98,40 @@ h2{
     font-family: 'Open Sans', sans-serif;
     display: flex;
 }
+.search{
+    display: flex;
+    margin-left: 420px;
+    margin-top: -20px;
+}
  /* estilo dos inputs */
  /* fim do estilo dos inputs */
  /* fim do estilo do campo de preenchimento */
 .branca{
  height: 300px;
- display:flex;
+ display: flex;
  justify-content:center;
  align-items:center;
 }
 .branca h3{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline;
+    font-family: 'Gill Sans', 'Gill Sans MT', "calibri", "trebuchet MS", "sans-serif";
     font-size: 30px;
     color: black;
     position: relative;
     bottom:40px;
-    justify-content:center;
-    left:275px;
+    justify-content: center;
+    left:240px;
+    
 }
+.branca h4{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 300px;
+}
+.branca p{
+display: flex;
+margin-top: 150px;
+}
+
+
 
