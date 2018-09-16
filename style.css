@@ -2,22 +2,29 @@ body{
     margin: 0 auto;
     font-family: sans-serif;
     width: 50vw;
-
-
 }
 header{
-    margin: 0 auto;
     height: 60vh;
-    width: 90vh;
     background:linear-gradient(to bottom, rgba(184, 184, 184, 0.5),rgba(184, 184, 184, 0.50)),  url("imagens/pc.jpg");
     background-size: cover;
 }
 /* estilo do menu  */
 nav{
-    height: 10vh;
+    height: 8vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.mazul{
+    height: 5px;
+    position: relative;
+
+}
+.mazul:hover{
+    background-color: #4ACAFF ;
+    height: 7px;
+    position: relative;
+    flex-direction: column;
 }
 a{
     text-decoration: none;
@@ -25,113 +32,186 @@ a{
     font-size: 0.4em;
     color: aliceblue;
     font-weight: bolder;
+
 }
 .menu{
+    margin:0;
     width: calc(40vw - 70px);
     display: flex;
     justify-content:space-evenly;
     align-content: center;
-    margin-left: 110px;
-    margin-right: 30px;
+    position: relative;
+    bottom:13px;
 }
 /* fim do estilo do menu  */
 /* estilo do two bytes */
 .tipografia{
     width: 60px;
-    height: 55px;
+    height: 50px;
     display: flex;
-    justify-content: center;
-    align-content: space-around;
+    padding: 0px;
+    flex-direction: column;
  }
  .tipografia .two{
-     font-size: 1em;
+     font-size:0.9em;
      color: aliceblue;
      font-family: 'raleway', sans-serif;
-     font-weight: 900;
+     margin-top: 28px;
+     margin-left: 25px;
+
  }
  .tipografia .bytes{
-     font-size: 1em;
+     font-size: 0.9em;
      color: aliceblue;
      font-family:'Raleway', sans-serif;
-     font-weight: 900;
+     margin-top: 28px;
  }
- .tipografia p{
-      display: inline-flex;
-      
-     }
-     .tipografia{
-         display: flex;
-         margin-top: 17px;
-         margin-left: 30px;
-     }
  h6{
      font-size: 0.6em;
      color: aliceblue;
      font-family:'Montserrat', sans-serif;
+     height: 6vh;
      position: relative;
-     top:25px;
+     top:2vh;
+     left: 1vw;
      margin:0;
-     right:35px;
  }
  .tipografia p{
      margin: 0px;
+     display:inline-flex;
+     justify-content: center;
      position: relative;
-     top:5px;
-     left:35px ;
  }
  /* fim do estilo do two bytes */
  /* estilo do campo de preenchimento */
  .campos{
-    display:block;
-    margin: 150px 20px;
-    color: aliceblue;
-    }
-    
-.localizacao{
+    margin:10vh;
     display: flex;
-    margin-left: 250px;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-content: center;
+    width: calc(40vw - 4vh);
+    height: 20vh;
 }
-
 h2{
+    width: 30vw;
     font-size: 2em;
     color: aliceblue;
-    font-family: 'Open Sans', sans-serif;
-    display: flex;
-}
-.search{
-    display: flex;
-    margin-left: 420px;
-    margin-top: -20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top:0px;
+    margin:1vh;
+    margin-bottom: 2vh;
 }
  /* estilo dos inputs */
- /* fim do estilo dos inputs */
+.qualemp{
+    width:30vw;
+    height:8vh;
+    color: aliceblue;
+    border:3px solid aliceblue;
+    border-bottom: 3px solid #CDD0D1;
+    border-radius: 3px;
+}
+.linha2{
+    width: 30vw;
+    height:6vh;
+    display:flex;
+    justify-content: space-between;
+    position: relative;
+    bottom:4vh;
+    margin:1vh;
+}
+.checkbox{
+    width:60%;
+    color: aliceblue;
+    font-family:'Montserrat', sans-serif;
+    font-size: 0.6em;
+    display: inline;
+    align-content: center;
+    justify-content:space-between;
+    position: relative;
+}
+.checkbox input{
+    width: 10px;
+    background-color: aliceblue;
+}
+select{
+    display:inline;
+    margin-left: 2%;
+    width:40%;
+    height:4vh;
+    display: inline;
+    color: gray;
+    border: 2px solid #CDD0D1;
+    border-radius: 3px;
+    position: relative;
+    /* bottom:5vh; */
+}
+/* fim do estilo dos inputs */
+.search{
+    position: relative;
+    width: 6vw;
+    height: 4vh;
+    left: 35vw;
+    bottom:5vh;
+}
+.search button{
+    width: 6vw;
+    height: 6vh;
+    background-color: #4ACAFF;
+    color: aliceblue;
+    font-weight: bolder;
+    border:none;
+    border-bottom: 2px solid #3CAFDE;
+}
+
  /* fim do estilo do campo de preenchimento */
+
+.azul{
+    display: flex;
+    flex-direction: row;
+    margin:0;
+    position: relative;
+    top:11vh;
+}
+ .azulc{
+     width: 70px;
+     height: 7px;
+     background: #4ACAFF;
+    
+ }
+ .azule{
+    width: 70px;
+    height: 7px;
+    background: #3CAFDE;
+    margin:0;
+ }
+       
+  
 .branca{
  height: 300px;
- display: flex;
+ display:flex;
  justify-content:center;
  align-items:center;
 }
 .branca h3{
-    display: inline;
-    font-family: 'Gill Sans', 'Gill Sans MT', "calibri", "trebuchet MS", "sans-serif";
+    display:inline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
     color: black;
     position: relative;
     bottom:40px;
-    justify-content: center;
-    left:240px;
-    
+    justify-content:center;
+    left:275px;
 }
-.branca h4{
-    display: flex;
-    margin-bottom: 50px;
-    margin-left: 300px;
+.we{
+    font-size: 12pt;
 }
-.branca p{
-display: flex;
-margin-top: 150px;
-}
-
-
-
+   .branca  h4 {
+       exibição : flex ;
+       margem-fundo : 50 px ;
+       margem esquerda : 300 px ;
+   }
+   .branca  p {
+   exibição : flex ;
+   margem superior : 150 px ;
+   } 
